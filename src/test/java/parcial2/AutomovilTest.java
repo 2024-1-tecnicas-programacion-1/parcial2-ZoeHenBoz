@@ -8,12 +8,12 @@ import org.junit.jupiter.api.Test;
 
 public class AutomovilTest {
     // TODO: Descomenta el siguiente código una vez hayas completado la clase Automovil
-    /**
+   
     private Automovil automovil;
 
     @BeforeEach
     public void setUp() {
-        automovil = new Automovil("Honda", "Civic", 2019, 4, TipoCombustible.GASOLINA);
+        automovil = new Automovil("Honda", "Civic", 2019);
     }
 
     @Test
@@ -58,5 +58,5 @@ public class AutomovilTest {
         automovil.setTipoCombustible(TipoCombustible.ELECTRICO);
         assertEquals(TipoCombustible.ELECTRICO, automovil.getTipoCombustible());
     }
-    **/
+
 }

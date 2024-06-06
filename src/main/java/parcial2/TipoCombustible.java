@@ -1,5 +1,9 @@
 package parcial2;
-
+//O(1)
 public enum TipoCombustible {
-    // TODO: Tu código va aquí
+    GASOLINA, ELECTRICO, HIBRIDO;//O(1)
+//O(1)
+    static String getTipoCombustible() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
